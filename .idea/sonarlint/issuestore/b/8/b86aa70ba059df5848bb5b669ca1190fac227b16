@@ -1,7 +1,7 @@
 
 _
-java:S1643"Use a StringBuilder instead.(¼¬ƒ¡8˜ú³Úü1J$9acbed95-80dc-4f2f-8e12-d179a29ab5ab
+java:S1643"Use a StringBuilder instead.(¼¬ƒ¡8˜ú³Úü1J$bc8d2774-00a6-4f46-b03a-b445fdf6bfdf
 l
-java:S2140")Use "java.util.Random.nextInt()" instead.(²×›–8©‘¹Úü1J$1cf41ec5-852a-4304-83cb-0d6372f98e43
+java:S2140")Use "java.util.Random.nextInt()" instead.(²×›–8©‘¹Úü1J$7e05dccc-6a04-49a9-8bf7-71ccf3769a5d
 r	java:S106
-"+Replace this use of System.out by a logger.(Ò÷Ôûùÿÿÿÿ8 ÉÚü1J$99fe4893-5cac-46fe-acb5-8dbb0ed52a6b
+"+Replace this use of System.out by a logger.(Ò÷Ôûùÿÿÿÿ8 ÉÚü1J$3f3af41f-d8fc-42e7-8804-6b9432374235
