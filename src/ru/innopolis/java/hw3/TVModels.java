@@ -17,5 +17,4 @@ public enum TVModels {
     public String toString(){
         return model;
     }
-
 }
