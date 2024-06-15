@@ -1,4 +1,4 @@
-package ru.innopolis.java.homeworks.homework04;
+package ru.innopolis.java.hw4;
 
 import java.util.Scanner;
 
