@@ -1,4 +1,4 @@
-package ru.innopolis.java.homeworks.homeworks01;
+package ru.innopolis.java.homeworks.homework01;
 
 public class Task1 {
     public static void main(String[] args) {
