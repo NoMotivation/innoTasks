@@ -1,4 +1,4 @@
-package ru.innopolis.java.hw1;
+package ru.innopolis.java.homeworks.homeworks01;
 
 import java.util.HashMap;
 

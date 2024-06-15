@@ -1,4 +1,4 @@
-package ru.innopolis.java.hw3;
+package ru.innopolis.java.homeworks.homeworks03;
 
 import java.text.DecimalFormat;
 
