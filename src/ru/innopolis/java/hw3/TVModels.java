@@ -1,4 +1,4 @@
-package ru.innopolis.java.homeworks.homeworks03;
+package ru.innopolis.java.hw3;
 
 public enum TVModels {
     SAMSUNG ("Samsung"),
