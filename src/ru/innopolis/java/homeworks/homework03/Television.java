@@ -1,4 +1,4 @@
-package ru.innopolis.java.homeworks.homeworks03;
+package ru.innopolis.java.homeworks.homework03;
 
 import java.text.DecimalFormat;
 
@@ -10,7 +10,7 @@ public class Television {
     public Television(TVModels tvModel, double price){
         this.tvModel = tvModel;
         this.price = price;
-        priceWithDiscount = price;
+        this.priceWithDiscount = price;
     }
 
     public String getTvModel(){
@@ -19,7 +19,7 @@ public class Television {
 
     public void setTvPrice(double price) {
         this.price = price;
-        priceWithDiscount = price;
+        this.priceWithDiscount = price;
     }
 
     public void setDiscountPrice(double priceWithDiscount){
@@ -28,18 +28,18 @@ public class Television {
 
     public double getTvPrice(){
         DecimalFormat decimalFormat = new DecimalFormat("#.0");
-        return Double.parseDouble(decimalFormat.format(priceWithDiscount).replace(",", "."));
+        return Double.parseDouble(decimalFormat.format(this.priceWithDiscount).replace(",", "."));
     }
 
     public double priceWithDiscount(int discount){
         priceWithDiscount = price * (100 - discount) / 100;
-        return priceWithDiscount;
+        return this.priceWithDiscount;
     }
 
     @Override
     public String toString() {
         return "Ваш телевизор: " + tvModel +
-                "\nЕго цена: " + getTvPrice();
+                "\nЕго цена: " + this.getTvPrice();
     }
 }
 
